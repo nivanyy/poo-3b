@@ -8,13 +8,13 @@ public class Arma : MonoBehaviour
     
     private float tempoDeDisparo = 0;
     
-    private new Camera camera;
+    private Camera camera;
     public GameObject cursor;
-    void Start()
+  void Start()
     {
         camera = Camera.main;
     }
-    void Update()
+   void Update()
     {
          
         // Distância da câmera ao objeto. Precisamos disso para fazer o cálculo correto.
@@ -30,7 +30,7 @@ public class Arma : MonoBehaviour
        
         Debug.Log("Angilo: "+angle);
         
-        
+        cursor.transform.position = new Vector3(mouse.x, mouse.y, cursor.transform.position.z);
         
         Debug.DrawLine(transform.position, mouse , Color.red);
         
