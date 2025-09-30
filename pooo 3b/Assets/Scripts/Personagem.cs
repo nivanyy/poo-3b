@@ -35,5 +35,11 @@ public class Personagem : MonoBehaviour
     {
         return this.velocidade;
     }
+    
+    
+   
+    
+    
+    
 }
 
