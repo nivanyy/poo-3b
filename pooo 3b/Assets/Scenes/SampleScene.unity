@@ -1092,7 +1092,7 @@ GameObject:
   - component: {fileID: 1732554699}
   m_Layer: 0
   m_Name: Inimigo
-  m_TagString: inimigo
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1112,6 +1112,10 @@ MonoBehaviour:
   vida: 10
   energia: 5
   velocidade: 0
+  dano: 1
+  raioDeVisao: 1
+  _visaoCollider2D: {fileID: 0}
+  posicaoDoPlayer: {fileID: 0}
 --- !u!212 &1732554697
 SpriteRenderer:
   m_ObjectHideFlags: 0
