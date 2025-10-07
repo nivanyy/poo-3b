@@ -72,7 +72,7 @@ public class Inimigo : Personagem
             gameObject.SetActive(false);
         }
         
-        //animator.SetBool("Andando",andando);
+        animator.SetBool("Andando",andando);
 
     }
     
@@ -93,4 +93,5 @@ public class Inimigo : Personagem
     }
 
 }
+
 
